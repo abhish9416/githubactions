@@ -1,0 +1,9 @@
+name: Run-shell-commands
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo run simple string
+        run: echo "hello this is the first github actions yaml file"
